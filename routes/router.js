@@ -4,7 +4,7 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const uuid = require('uuid');
 
-const db = require('../data/db');
+const db = require('data/db');
 const userMiddleware = require('../middleware/users');
 
 //http://localhost:3000/api/sign-up
