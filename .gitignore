@@ -106,3 +106,4 @@ dist
 
 # # Datastore local files
 # data/db.js
+.config
